@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#cover {
+  background: url('https://wallpapercave.com/wp/wp3131763.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+    display: flex;
+}
+
+.container{
+  margin: auto;
+  background-color: white;
+  border-radius: 4px;
+)
+
+}
+
+.wrap{
+  padding: 30px 60px;
+  margin: auto;
+}
+
+
+.wrap div:not(:last-child){
+  margin-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.checkout{
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 16px;
+}
