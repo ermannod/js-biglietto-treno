@@ -37,17 +37,19 @@ var pricePlusDiscount;
     discount = .20;
     var discountedPrice = price - ( price * discount);
     console.log('Elegible for 20% discount: ' + discountedPrice);
-
+    document.getElementById('elegible').innerHTML = "Elegible for 20% discount";
   }
   else if ( age  > 65 )  {
     discount =  .40;
     var discountedPrice  = price - ( price * discount);
     console.log('Elegible for 40% discount. ' + discountedPrice);
+    document.getElementById('elegible').innerHTML = "Elegible for 40% discount";
   }
   else {
     discount = 0;
     var discountedPrice = price - ( price * discount);
     console.log('Not qualifying for discount: ' + discountedPrice);
+    document.getElementById('elegible').innerHTML = "Not qualifying for discount";
   }
 
 document.getElementById('discount').innerHTML = 'Your ticket will cost ' + discountedPrice  + "€";
